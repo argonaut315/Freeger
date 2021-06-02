@@ -32,9 +32,9 @@ h1{
 .index{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 45px;
-    background-color: rgb(187, 202, 233);
+    background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 2fr  5fr;
+    grid-template-columns: 5fr  2fr;
     grid-template-rows: auto 3fr ;
     
     grid-column-gap: 30px;
@@ -160,7 +160,6 @@ nav{
 
 
 aside{
-    border: solid black;
     margin: auto;
 }
 section{
@@ -397,7 +396,10 @@ $red:(
     background-color: $color;
   }
 }
-
+/* fecha h4 */
+.h4 {
+  font-size: 30px;
+  }
 
 
 
